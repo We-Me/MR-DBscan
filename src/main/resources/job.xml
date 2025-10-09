@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<configuration>
+    <property>
+        <name>dbscan.epsilon</name>
+        <value>30000</value>
+    </property>
+    <property>
+        <name>dbscan.minpts</name>
+        <value>30</value>
+    </property>
+    <property>
+        <name>dbscan.stage2.buckets</name>
+        <value>128</value>
+    </property>
+    <property>
+        <name>dbscan.stage3.size</name>
+        <value>3000</value>
+    </property>
+
+    <property>
+        <name>dbscan.csv.input</name>
+        <value>/dbscan/job1-in/10000data.csv</value>
+    </property>
+    <property>
+        <name>dbscan.csv.delim</name>
+        <value> </value>
+    </property>
+    <property>
+        <name>dbscan.csv.header</name>
+        <value>false</value>
+    </property>
+    <property>
+        <name>dbscan.csv.id</name>
+        <value>true</value>
+    </property>
+
+    <property>
+        <name>dbscan.stage1.output</name>
+        <value>/dbscan/job1-out</value>
+    </property>
+    <property>
+        <name>dbscan.stage2.output</name>
+        <value>/dbscan/job2-out</value>
+    </property>
+    <property>
+        <name>dbscan.stage3.output</name>
+        <value>/dbscan/job3-out</value>
+    </property>
+    <property>
+        <name>dbscan.stage4.output</name>
+        <value>/dbscan/job4-out</value>
+    </property>
+
+    <property>
+        <name>dbscan.stage5.output</name>
+        <value>/dbscan/job5-out</value>
+    </property>
+
+    <property>
+        <name>dbscan.stage6.output</name>
+        <value>/dbscan/job6-out</value>
+    </property>
+    <property>
+        <name>dbscan.stage7.output</name>
+        <value>/dbscan/job7-out</value>
+    </property>
+    <property>
+        <name>dbscan.stage8.output</name>
+        <value>/dbscan/job8-out</value>
+    </property>
+    <property>
+        <name>dbscan.stage9.output</name>
+        <value>/dbscan/job9-out</value>
+    </property>
+
+</configuration>
